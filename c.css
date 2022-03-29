@@ -1,0 +1,437 @@
+body {
+    background-color: rgb(244, 246, 248);
+    padding: 10%
+}
+
+.nav {
+    background-color: #b2f0f0;
+    width: 21%;
+    position: fixed;
+    overflow-y: visible;
+    height: 100%;
+    margin: -10%;
+    overflow-y: scroll;
+    z-index: 1;
+}
+
+.al {
+    background-color: rgb(29, 243, 29);
+    border-radius: 55%;
+    -webkit-border-radius: 55%;
+    -moz-border-radius: 55%;
+    -ms-border-radius: 55%;
+    -o-border-radius: 55%;
+    padding: 6px;
+    border-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    float: right;
+    left: 150px;
+    position: fixed;
+    top: 14%;
+    border-left-color: #0c0d0e;
+}
+
+.ip {
+    border-radius: 50%;
+    position: fixed;
+}
+
+.name1 {
+    float: right;
+    left: 50px;
+    position: fixed;
+    top: 24%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 800;
+}
+
+li {
+    list-style-type: none;
+}
+
+.ph {
+    width: 70px;
+    height: 150px;
+}
+
+.c {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: large;
+}
+
+#spin {
+    color: rgb(61, 182, 238);
+}
+
+#spin:after {
+    content: "";
+    animation: spin 6s linear infinite;
+    -webkit-animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        content: "fullstack webdev";
+    }
+    50% {
+        content: "pen tester";
+    }
+    90% {
+        content: "iT related stuff";
+    }
+}
+
+.info {
+    padding-top: px;
+}
+
+.info li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    padding-inline: 4px;
+}
+
+.info li {
+    border-bottom: 1px solid #555;
+    padding: 5px;
+}
+
+.info li:last-child {
+    border-bottom: none;
+}
+
+.info li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.info li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.info span {
+    padding-right: 18px;
+}
+
+.soc li,
+span {
+    display: inline;
+    align-items: center;
+    padding-right: 12px;
+}
+
+.soc {
+    margin: 0px;
+    padding-right: 12px;
+}
+
+.fa-facebook-official,
+.fa-instagram,
+.fa-twitter-square {
+    size: 80px;
+}
+
+.le {
+    float: left;
+    margin-left: 13.1%;
+    max-width: 100%;
+    margin-right: ;
+    padding-bottom: ;
+    z-index: 2;
+    overflow-x: hidden;
+}
+
+.pc {
+    background-image: url(https://images.pexels.com/photos/8866748/pexels-photo-8866748.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 78.7%;
+    height: 90%;
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
+    position: fixed;
+    top: 1%;
+    float: left;
+    left: 21%;
+}
+
+.co {
+    z-index: 3;
+    position: fixed;
+    top: 1%;
+    left: 21%;
+    width: 78.7%;
+    height: 90%;
+    text-align: center;
+    background-color: rgb(247, 11, 141);
+    opacity: 30%;
+}
+
+.wa {
+    right: ;
+    width: 1063px;
+    height: 280px;
+    top: -100px;
+    position: relative;
+    z-index: 4;
+    opacity: 100%;
+    padding-top: 30%;
+    border-bottom: white;
+    overflow-x: hidden;
+    margin-left: %;
+}
+
+.last {
+    position: relative;
+    z-index: 5;
+    background-color: aliceblue;
+    padding: 19px;
+    top: -110px;
+    width: 1063px;
+    overflow-x: hidden;
+    padding-right: 60px;
+    padding-right: 90px;
+}
+
+.k {
+    position: relative;
+    z-index: 5;
+    background-color: aliceblue;
+    padding: 10px;
+    top: -49px;
+    width: 1063px;
+    right: %;
+    overflow-x: hidden;
+}
+
+.hom {
+    position: relative;
+    z-index: 3;
+    background-color: ;
+    padding: 10px;
+    top: -70px;
+    width: 1030px;
+    right: %;
+    overflow-x: ;
+    top: 1%;
+    position: absolute;
+    z-index: 4;
+    opacity: 100%;
+    padding-top: %;
+    display: ;
+}
+
+
+/* CSS */
+
+.button-18 {
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-left: 290px;
+}
+
+.button-18:hover,
+.button-18:focus {
+    background-color: #2bcc26;
+    color: #ffffff;
+}
+
+.button-18:active {
+    background: #1db918;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+.button-189 {
+    align-items: center;
+    background-color: #10f323;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-left: 290px;
+}
+
+.button-189:hover,
+.button-189:focus {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.button-189:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-189:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+#pid {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 220px;
+}
+
+#p12 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 120px;
+}
+
+#p13 {
+    font-size: 23px;
+    font-weight: 400;
+    font-style: oblique;
+    text-align: center;
+    margin-left: 120px;
+}
+
+#span1::before {
+    content: "Developer ";
+    animation: animate infinite 3s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+    0% {
+        content: "Designer ";
+    }
+    50% {
+        content: " Freelancer";
+    }
+    75% {
+        content: "";
+    }
+}
+
+#pfi {
+    width: 350px;
+    height: 340px;
+    border-top: #10f323;
+    border-bottom: #10f323;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 30%;
+    position: relative;
+    z-index: 5;
+    background-color: #16437E;
+    border-width: 12px;
+    border-top-color: #10f323;
+    border-style: outset;
+    background-image: url("https://metaversartgallery.com/side-menu-wave/images/profile-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.about {
+    margin-left: 4%;
+    padding-bottom: 34%;
+}
+
+#wor {
+    float: ;
+    top: 10%;
+    text-align: center;
+    margin-left: 40%;
+    position: relative;
+    margin-top: -40%;
+    z-index: 5;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fl {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    margin-left: 50%;
+}
+
+#h22 {
+    font-size: 50px;
+    margin-left: 50%;
+}
+
+hr {
+    width: 90%;
+    float: right;
+    height: 2px;
+    background-color: #000;
+}
+
+#inf {
+    float: ;
+    top: ;
+    text-align: ;
+    margin-left: %;
+    position: relative;
+    z-index: 5;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-table;
+}
+
+#r {
+    float: right;
+    right: 800%;
+    display: flex;
+}
